@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-//By : Abdullah Shublaq
+
 package encrypt.by.rsa;
 
 import java.math.BigInteger;
@@ -11,8 +11,9 @@ import java.util.Scanner;
 
 /**
  *
- * @author jit
+ * @author Abdullah Shublaq
  */
+
 public class EncryptByRSA {
 
     public static String encrypt(String m, BigInteger n/* p*q */, int e, boolean oddLength) {
